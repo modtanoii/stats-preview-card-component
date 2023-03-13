@@ -1,0 +1,44 @@
+.main {
+    height: 100%;
+    display: flex;
+}
+
+
+.headerimg {
+    border-radius : 0 0.5rem 0.5rem 0;
+    opacity: 40%;
+}
+
+.left {
+    height: 100%;
+    padding-left: 6%;
+    padding-right: 8%;
+    padding-top: 7%;
+}
+
+.right {
+    background-color: hsl(277, 64%, 61%);
+    border-radius : 0 0.5rem 0.5rem 0;
+}
+
+.title {
+    line-height: 45px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer {
+    margin-top: 60px;
+    display:flex;
+    justify-content:space-between;
+    padding-right: 50px;
+}
